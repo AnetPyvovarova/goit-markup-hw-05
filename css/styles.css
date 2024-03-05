@@ -499,8 +499,6 @@ p {
   display: inline-flex;
   gap: 24px;
 }
-.footer-action-list {
-}
 
 .footer-text-input {
   padding-top: 8px;
@@ -516,6 +514,7 @@ p {
   font-weight: 400;
   line-height: 2;
   letter-spacing: 0.04em;
+  background: #2e2f42;
 }
 
 .footer-action-btn {

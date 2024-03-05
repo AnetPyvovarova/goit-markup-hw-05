@@ -480,11 +480,9 @@
 
         <div class="footer-action-wrapper">
           <p class="footer-action-header">Subscribe</p>
-          <ul class="footer-action-blox">
-            <li class="footer-action-list">
-              <a class="footer-text-input" href="">E-mail</a>
-            </li>
-            <li>
+          <form class="footer-action-blox">
+            <label class="footer-action-list"></label>
+              <input for="subscribe-email" class="footer-text-input" type="email" name="subscribe-email" id="subscribe-email" placeholder="E-mail"></input>
               <button class="footer-action-btn" type="submit">
                 Subscribe
                 <svg class="action-btn-icon">
@@ -495,11 +493,11 @@
                   ></use>
                 </svg>
               </button>
-            </li>
-          </ul>
-        </div>
+          </form>
       </div>
-      <!-- =========== Modal window =========== -->
+    </footer>
+
+    <!-- =========== Modal window =========== -->
       <div class="backdrop is-open">
         <div class="modal">
           <button type="button" class="modal-close-btn">
@@ -597,6 +595,5 @@
           </form>
         </div>
       </div>
-    </footer>
   </body>
 </html>
