@@ -478,14 +478,14 @@
           </ul>
         </div>
 
-        <div>
+        <div class="footer-action-wrapper">
           <p class="footer-action-header">Subscribe</p>
           <ul class="footer-action-blox">
             <li class="footer-action-list">
               <a class="footer-text-input" href="">E-mail</a>
             </li>
             <li>
-              <button class="footer-action-btn" type="button">
+              <button class="footer-action-btn" type="submit">
                 Subscribe
                 <svg class="action-btn-icon">
                   <use
@@ -499,88 +499,82 @@
           </ul>
         </div>
       </div>
-    </footer>
-
-    <!-- =========== Modal window =========== -->
-
-    <div class="backdrop is-open">
-      <div class="modal">
-        <button type="button" class="modal-close-btn">
-          <svg class="modal-close-icon" width="8" height="8">
-            <use href="./images/icons.svg#icon-close"></use>
-          </svg>
-        </button>
-        <p class="contact-form-description">
-          Leave your contacts and we will call you back
-        </p>
-        <form class="contact-form">
-          <div class="contact-form-filed-wrapper">
-            <label class="contact-form-filed-label" for="user-name">Name</label>
-            <div class="contact-form-input-wrapper">
-              <input
-              type="text"
-              class="contact-form-input"
-              name="user-name"
-              id="user-name"
-              required
-            />
-            <svg class="contact-form-icon"
-            width="18"
-            height="18">
-              <use href="./images/icons.svg#icon-person"></use>
+      <!-- =========== Modal window =========== -->
+      <div class="backdrop is-open">
+        <div class="modal">
+          <button type="button" class="modal-close-btn">
+            <svg class="modal-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
             </svg>
+          </button>
+          <p class="contact-form-description">
+            Leave your contacts and we will call you back
+          </p>
+          <form class="contact-form">
+            <div class="contact-form-filed-wrapper">
+              <label class="contact-form-filed-label" for="user-name"
+                >Name</label
+              >
+              <div class="contact-form-input-wrapper">
+                <input
+                  type="text"
+                  class="contact-form-input"
+                  name="user-name"
+                  id="user-name"
+                  required
+                />
+                <svg class="contact-form-icon" width="18" height="18">
+                  <use href="./images/icons.svg#icon-person"></use>
+                </svg>
+              </div>
             </div>
-          </div>
-          <div class="contact-form-filed-wrapper">
-            <label class="contact-form-filed-label" for="user-phone"
-              >Phone</label>
-            <div class="contact-form-input-wrapper">
-              <input
-              type="tel"
-              class="contact-form-input"
-              name="user-phone"
-              id="user-phone"
-              required
-            />
-            <svg class="contact-form-icon" 
-            width="18"
-            height="24">
-              <use href="./images/icons.svg#icon-phone"></use>
-            </svg>
+            <div class="contact-form-filed-wrapper">
+              <label class="contact-form-filed-label" for="user-phone"
+                >Phone</label
+              >
+              <div class="contact-form-input-wrapper">
+                <input
+                  type="tel"
+                  class="contact-form-input"
+                  name="user-phone"
+                  id="user-phone"
+                  required
+                />
+                <svg class="contact-form-icon" width="18" height="24">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+              </div>
             </div>
-          </div>
-          <div class="contact-form-filed-wrapper">
-            <label class="contact-form-filed-label" for="user-email"
-              >Email</label
-            >
-            <div class="contact-form-input-wrapper">
-              <input
-              type="email"
-              class="contact-form-input"
-              name="user-email"
-              id="user-email"
-              required
-            />
-            <svg class="contact-form-icon" 
-            width="18"
-            height="24">
-              <use href="./images/icons.svg#icon-email"></use>
-            </svg>
+            <div class="contact-form-filed-wrapper">
+              <label class="contact-form-filed-label" for="user-email"
+                >Email</label
+              >
+              <div class="contact-form-input-wrapper">
+                <input
+                  type="email"
+                  class="contact-form-input"
+                  name="user-email"
+                  id="user-email"
+                  required
+                />
+                <svg class="contact-form-icon" width="18" height="24">
+                  <use href="./images/icons.svg#icon-email"></use>
+                </svg>
+              </div>
             </div>
-          </div>
-          <div class="contact-form-comment-wrapper">
-            <label class="contact-form-filed-label" for="user-comment"
-              >Comment</label
-            >
-            <textarea
-              class="contact-form-text-input"
-              placeholder="Text input"
-              name="user-comment"
-              id="user-comment"
-              rows="10"
-              required
-            ></textarea>
-          </div>
+            <div class="contact-form-comment-wrapper">
+              <label class="contact-form-filed-label" for="user-comment"
+                >Comment</label
+              >
+              <textarea
+                class="contact-form-text-input"
+                placeholder="Text input"
+                name="user-comment"
+                id="user-comment"
+                rows="10"
+                required
+              ></textarea>
+            </div>
             <div class="contact-form-checkbox-wrapper">
               <input
                 type="checkbox"
@@ -596,13 +590,13 @@
                   </svg>
                 </span>
                 I accept the terms and conditions of the
-                <a class="privacy-policy-link" href="">Privacy Policy</a></label
-              >
+                <a class="privacy-policy-link" href="">Privacy Policy</a>
+              </label>
             </div>
             <button class="contact-form-send-btn" type="submit">Send</button>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
-    </div>
+    </footer>
   </body>
 </html>
